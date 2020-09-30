@@ -32,7 +32,6 @@ function startTimer() {
       function zeroLead(timeUnit) {
         return timeUnit.toString().padStart(2, "0");
       }
-      console.log(distance);
       theTimer.innerHTML =
         zeroLead(minutes) + ":" + zeroLead(seconds) + ":" + zeroLead(cs);
     }, 1);
